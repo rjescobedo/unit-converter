@@ -13,7 +13,7 @@ function meterFeetCalculation(num) {
     const meterToFeet = num * 3.281;
     const feetToMeter = num / 3.281;
 
-    meterFeetUi.textContent = `${num} meters = ${meterToFeet.toFixed(3)} | ${num} feet = ${feetToMeter.toFixed(3)} meters`
+    meterFeetUi.textContent = `${num} meters = ${meterToFeet.toFixed(3)} feet | ${num} feet = ${feetToMeter.toFixed(3)} meters`
 
 }
 

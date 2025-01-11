@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     margin: 0;
     background-color: #6943FF;
+    height: 50vh;
 }
 
 .input-container h1 {
@@ -52,6 +53,9 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
 .container-box {
@@ -60,9 +64,20 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #273549;
-    margin: 2rem;
     padding: 2rem;
     border-radius: 5px;
+}
+
+.container-box:nth-child(1) {
+    margin: 3rem 2rem 2rem 2rem;
+}
+
+.container-box:nth-child(2) {
+    margin: 0 2rem 2rem 2rem;
+}
+
+.container-box:nth-child(3) {
+    margin: 0 2rem 3rem 2rem;
 }
 
 .container-box h3 {
@@ -76,4 +91,37 @@ body {
     color: white;
     padding: 0;
     margin: 0;
+}
+
+@media (min-width: 1000px) {
+    .conversion-container {
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 50vh;
+    }
+
+    .container-box {
+        height: 100px;
+        align-items: center;
+    }
+
+
+    .container-box:nth-child(1) {
+        margin: 1rem;
+    }
+
+    .container-box:nth-child(2) {
+        margin: 1rem;
+    }       
+
+    .container-box:nth-child(3) {
+        margin: 1rem;
+    }
+
+
+
+   
+
 }
