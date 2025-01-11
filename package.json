@@ -3,23 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rjescobedo/unit-converter.git"
   },
   "keywords": [],
-  "author": "Raul Escobedo",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rjescobedo/unit-converter/issues"
   },
   "homepage": "https://github.com/rjescobedo/unit-converter#readme",
-  "description": "",
-  "devDependencies": {
-    "webpack": "^5.97.1",
-    "webpack-cli": "^6.0.1"
-  }
+  "description": ""
 }
